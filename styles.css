@@ -270,17 +270,17 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 } 
  
 /* Small devices (landscape phones, 576px and up) */
-/* @media screen and (max-width: 575px) {  
+@media screen and (max-width: 575px) {  
     .text-hattl {
         font-size: 4rem;
     }
     .text-webdev {
         font-size: 3rem;
     }
-    .mobile {
+    /* .mobile {
         background-color: aquamarine;
         height: 100vh;
-    } */
+    }  */
 
     /* .card-body-height {
         height: 112vh;
