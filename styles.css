@@ -255,9 +255,9 @@ Extra small devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap because it is "mobile first"
 */
 @media (max-width: 575px) {
-    body {
+    /* body {
         width: 50%;
-    }
+    } */
     /* .mobile {
         background-color: aquamarine;
         height: 100vh;
