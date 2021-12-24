@@ -294,7 +294,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     }
 
     .card-body-height-second {
-        height: 115vh;
+        height: 105vh;
     }
 
     .card-body-height-third {
