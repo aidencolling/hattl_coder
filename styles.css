@@ -289,9 +289,9 @@ No media query since this is the default in Bootstrap because it is "mobile firs
         height: 100vh;
     }  */
 
-    /* .card-body-height {
-        height: 112vh;
-    } */
+    .card-body-height-first {
+        height: 50vh;
+    }
 
 
 
