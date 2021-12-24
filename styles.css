@@ -277,6 +277,13 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     .text-webdev {
         font-size: 3rem;
     }
+
+    .container-fourth .row .col-md-4 img,
+    .container-fourth .row .col-md-5 img {
+        opacity: 1;
+        border: 1px grey solid;
+        border-radius: 15px;
+    }
     /* .mobile {
         background-color: aquamarine;
         height: 100vh;
@@ -285,6 +292,8 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     /* .card-body-height {
         height: 112vh;
     } */
+
+
 
 
     /* .container.container-arrow img {
