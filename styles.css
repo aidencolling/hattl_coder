@@ -367,6 +367,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     }
     .text-webdev {
         font-size: 6rem;
+        padding-bottom: 5vh;
     }
 
     .card-body-height-first {
