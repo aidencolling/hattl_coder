@@ -344,18 +344,18 @@ No media query since this is the default in Bootstrap because it is "mobile firs
         font-size: 8rem;
     }
     .text-webdev {
-        font-size: 7rem;
+        font-size: 6rem;
     }
 
     .card-body-height-first {
-        height: 70vh;
+        height: 75vh;
     }
 
     .card-body-height-second {
-        height: 70vh;
+        height: 75vh;
     }
 
     .card-body-height-third {
-        height: 70vh;
+        height: 75vh;
     }
 }
