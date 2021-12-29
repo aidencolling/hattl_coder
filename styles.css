@@ -361,7 +361,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 }
  
 /* Extra large devices (large desktops, 1300px and up) */
-@media screen and (min-width: 1300px) {  
+@media screen and (min-width: 1400px) {  
     .text-hattl {
         font-size: 8rem;
     }
