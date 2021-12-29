@@ -348,15 +348,15 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     }
 
     .card-body-height-first {
-        height: 105vh;
+        height: 108vh;
     }
 
     .card-body-height-second {
-        height: 105vh;
+        height: 108vh;
     }
 
     .card-body-height-third {
-        height: 105vh;
+        height: 108vh;
     }
 }
  
