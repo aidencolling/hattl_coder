@@ -338,29 +338,29 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     }
 }
 
-/* Extra large devices (large desktops, 1300px and up) */
+/* Extra large devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {  
     .text-hattl {
-        font-size: 8rem;
+        font-size: 6rem;
     }
     .text-webdev {
-        font-size: 6rem;
+        font-size: 5rem;
     }
 
     .card-body-height-first {
-        height: 90vh;
+        height: 105vh;
     }
 
     .card-body-height-second {
-        height: 90vh;
+        height: 105vh;
     }
 
     .card-body-height-third {
-        height: 90vh;
+        height: 105vh;
     }
 }
  
-/* Extra large devices (large desktops, 1300px and up) */
+/* Extra large devices (large desktops, 1400px and up) */
 @media screen and (min-width: 1400px) {  
     .text-hattl {
         font-size: 8rem;
