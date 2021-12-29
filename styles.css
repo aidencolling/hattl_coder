@@ -334,7 +334,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
         font-size: 100rem;
     }
     .text-webdev {
-        font-size: 5rem;
+        font-size: 50rem;
     }
 }
  
@@ -344,6 +344,6 @@ No media query since this is the default in Bootstrap because it is "mobile firs
         font-size: 100rem;
     }
     .text-webdev {
-        font-size: 12rem;
+        font-size: 120rem;
     }
 }}
