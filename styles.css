@@ -330,7 +330,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
  
 /* Large devices (desktops, 992px and up) */
 @media screen and (min-width: 992px) { 
-    .text-hattl {
+    h1 .text-hattl {
         font-size: 100rem;
     }
     .text-webdev {
