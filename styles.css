@@ -346,4 +346,16 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     .text-webdev {
         font-size: 7rem;
     }
+
+    .card-body-height-first {
+        height: 40vh;
+    }
+
+    .card-body-height-second {
+        height: 40vh;
+    }
+
+    .card-body-height-third {
+        height: 40vh;
+    }
 }
