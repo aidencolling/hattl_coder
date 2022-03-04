@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarot</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <span class="navbar-brand mb-0 h1">Welcome to hattl_tarot!</span>
+        </div>
+      </nav>
+    
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <div><button type="button" onclick="threeShuffles()">Three Shuffles</button></div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col">
+                <div><button type="button" onclick="firstCard()">First Card</button>
+                    <button type="button" onclick="firstCardHide()">Clear First Card</button>
+                <p>First Card</p>
+                <p id="firstCard"></p>
+                <img class="card1" id="card1" src="" alt="" srcset="" >
+                <p id="numberDescription1st"></p>
+                <p id="suitDescription1st"></p>
+                <p id="majorArcaniaDescription1st"></p>
+                </div>
+            </div>
+
+            <div class="col">
+                <div><button type="button" onclick="secondCard()">Second Card</button>
+                    <button type="button" onclick="secondCardHide()">Clear Second Card</button></div>
+                <p>Second Card</p>
+                <p id="secondCard"></p>
+                <img class="card2" id="card2" src="" alt="" srcset="" >
+            </div>
+
+            <div class="col">
+                <div><button type="button" onclick="thirdCard()">Third Card</button>
+                    <button type="button" onclick="thirdCardHide()">Clear Second Card</button></div>
+                <p>Third Card</p>
+                <p id="thirdCard"></p>
+                <img class="card3" id="card3" src="" alt="" srcset="" >
+            </div>
+        </div>
+    </div>
+    
+    <!-- <button type="button" onclick="theFunction()">Test</button>
+    <button type="button" onclick="minorArcania()">Click for minor arcania</button>
+    <button type="button" onclick="fullDeck()">Click for full deck</button>
+    <button type="button" onclick="minorArcaniaLength()">yes</button> -->
+<!-- 
+    <button type="button" onclick="showSourceList()">Show Source List</button>
+    
+    <p id="sourceList"></p>
+    <p id="sourceList2"></p>
+    <img id="printCard" src="" alt="Image not displaying"> -->
+    
+
+
+
+
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
