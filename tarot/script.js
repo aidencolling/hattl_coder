@@ -114,7 +114,7 @@ var the_world_full = "The World card shows a naked woman wrapped in a purple clo
 
 var majorArcaniaSourceList = [];
 for (var x in major_arcania) {
-    var card3 = "/cards/all/" + major_arcania[x] + "-tarot-card.webp";
+    var card3 = "cards/all/" + major_arcania[x] + "-tarot-card.webp";
     majorArcaniaSourceList.push(card3)
 }
 
@@ -124,7 +124,7 @@ for (var x in numbers) {
     for (var y in suits) {
         var card = numbers[x] + " " + suits[y];
         minor_arcania.push(card);
-        var card2 = "/cards/all/" + numbers[x] + "_" + suits[y] + ".png";
+        var card2 = "cards/all/" + numbers[x] + "_" + suits[y] + ".png";
         minorArcaniaSourceList.push(card2);
     }   
 }
