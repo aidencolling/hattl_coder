@@ -1,0 +1,61 @@
+body {
+    text-align: center;
+}
+
+/* .card1, .card2, .card3 {
+    align-items: center;
+} */
+
+.three_shuf_button {
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    background-color: tomato;
+    border: 2px solid #2d2d2d;
+    border-radius: 50%;
+    height: 15vh;
+    width: 15vh;
+
+}
+
+.three_shuf_button:hover {
+    transform: scale(120%);
+}
+
+.col-flex-box {
+    display: flex;
+    justify-content: center;
+}
+
+.draw_card_button {
+    background-color: blueviolet;
+    border: #2d2d2d solid 1px;
+    border-radius: 50%;
+    height: 14vh;
+    width: 14vh;
+    color: aliceblue;
+    font-weight: 500;
+}
+
+.draw_card_button:hover {
+    transform: scale(110%);
+}
+
+.clear_card_button {
+    background-color: orange;
+    border: #2d2d2d solid 1px;
+    border-radius: 50%;
+    height: 12vh;
+    width: 12vh;
+    color: #2d2d2d;
+    font-weight: 500;
+}
+
+.clear_card_button:hover {
+    transform: scale(110%);
+}
+
+/* card description -----*/
+
+.number_description_container {
+    border: 1px solid green;
+}
